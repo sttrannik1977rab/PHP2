@@ -1,14 +1,14 @@
 <?php
 
-namespace Geekbrains\Blog;
-use Person\Name;
+namespace GeekBrains\Blog;
+use GeekBrains\Person\Name;
 
 class User
 {
-  /*  private int $id;
+    /*  private int $id;
     private Name $username;
     private string $login;
-*/
+    */
     /**
      * @param int $id
      * @param Name $username
@@ -20,21 +20,20 @@ class User
         $this->username = $username;
         $this->login = $login;
     }
-
     */
 
-    public function __construct(
+    public function __construct
+    (
         private int $id,
         private Name $username,
         private string $login,
     )
     {
-
     }
     public function __toString(): string
+    /*этот метод вызывается тогда, когда мы пытаемся получить объект как строку*/
     {
         return "Юзер $this->id с именем $this->username и логином $this->login." .PHP_EOL;
-
     }
 
 }

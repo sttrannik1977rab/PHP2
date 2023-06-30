@@ -1,6 +1,6 @@
 <?php
 
-namespace Person;
+namespace GeekBrains\Person;
 class Name
 {/*
     private string $firstName;

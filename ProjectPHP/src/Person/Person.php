@@ -1,6 +1,8 @@
 <?php
 
-namespace Person;
+namespace GeekBrains\Person;
+/*GeekBrains\LevelTwo\ - виртуальная часть названия*/
+/*use \DateTimeImmutable;*/
 class Person
 {/*
     private Name $name;
